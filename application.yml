@@ -5,3 +5,14 @@ eureka:
     instance-info-replication-interval-seconds: 5
     initial-instance-info-replication-interval-seconds: 6
 
+spring:
+  application:
+    name: ums
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
